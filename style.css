@@ -67,8 +67,7 @@ input[type="text"]:focus{
 
 #movie-list{
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
 }
 
 .cards{
@@ -82,7 +81,7 @@ input[type="text"]:focus{
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     margin: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     min-width: 200px;
 }
 
@@ -92,12 +91,13 @@ input[type="text"]:focus{
 }
 
 .cards img{
-    width: 100px;
+    width: 150px;
+    margin-bottom: 2rem;
 }
 
 .cards div{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 0.5rem;
+    padding: 2rem;
 }
 
 .cards .syn{
@@ -109,5 +109,6 @@ input[type="text"]:focus{
 }
 
 .logo-note{
+    margin-bottom: -0.3rem !important;
     width: 25px !important;
 }

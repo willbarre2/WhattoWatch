@@ -50,11 +50,11 @@ const movieDisplay = (array) => {
                           ? "https://image.tmdb.org/t/p/w500" + film.poster_path
                           : "./img/poster.jpg"
                       }" alt="affiche de ${film.title}">
-                      <div class="syn">Synopsice : ${film.overview} </div>
+                      <div class="syn">Synopsis : ${film.overview} </div>
                       <div>Note : ${
                         film.vote_average
                       } / 10  <img class="logo-note" src="${
-        film.vote_average > 5 ? "./img/fire.svg" : "./img/snow.svg"
+        film.vote_average >= 7 ? "./img/fire.svg" : "./img/snow.svg"
       }" alt="logo"></div>
                   </li>
               `;
